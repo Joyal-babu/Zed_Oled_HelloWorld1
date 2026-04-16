@@ -1,0 +1,778 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "100000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "zed_oled_control_inst1/delay_2ms_inst1/ila_inst1",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "E6690EBE88F656828388A8A0831DE28F",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/delay_2ms_inst1/enable",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 17,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/delay_2ms_inst1/counter",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[17]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[16]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[15]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[14]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[13]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[12]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[11]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[10]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[9]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[8]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[7]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[6]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/delay_2ms_inst1/counter[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/delay_2ms_inst1/done_i",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "zed_oled_control_inst1/ila_inst2",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "8828200929F65C3AAA7F1069B5ACC12B",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/oled_vdd_i",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/oled_vbat_i",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/oled_rstn_i",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/oled_dc_i",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/sdata",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[7]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[6]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/sdata[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/svalid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/dly_enable",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 10,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 4,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/vld_cnt",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/vld_cnt[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/vld_cnt[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/vld_cnt[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/vld_cnt[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/vld_cnt[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 11,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 5,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/state[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/state[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/state[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/state[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/state[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/state[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 12,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 5,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/comeback_state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/comeback_state[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe10",
+                                "id": 13,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/delay_done",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe11",
+                                "id": 14,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/sdone_fe",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe12",
+                                "id": 15,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 6,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/char_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[6]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe13",
+                                "id": 16,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/char_addr_vld",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe14",
+                                "id": 17,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/load_rom_addr",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe15",
+                                "id": 18,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/<const0>",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe16",
+                                "id": 19,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/bytecount",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/bytecount[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/bytecount[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/bytecount[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/bytecount[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe17",
+                                "id": 20,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/temp_page",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/temp_page[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/temp_page[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe18",
+                                "id": 21,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 63,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "zed_oled_control_inst1/char_bitmap",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[63]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[62]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[61]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[60]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[59]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[58]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[57]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[56]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[55]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[54]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[53]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[52]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[51]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[50]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[49]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[48]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[47]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[46]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[45]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[44]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[43]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[42]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[41]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[40]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[39]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[38]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[37]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[36]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[35]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[34]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[33]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[32]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[31]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[30]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[29]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[28]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[27]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[26]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[25]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[24]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[23]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[22]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[21]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[20]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[19]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[18]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[17]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[16]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[15]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[14]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[13]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[12]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[11]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[10]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[9]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[8]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[7]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[6]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[5]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[4]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[3]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[2]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[1]"
+                                            },
+                                            {
+                                                "name": "zed_oled_control_inst1/char_bitmap[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
